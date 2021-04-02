@@ -36,10 +36,10 @@ const vcard = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n' 
 + 'FN:Meu criador^~^\n' 
 + 'ORG:Ian;\n' 
-+ 'TEL;type=CELL;type=VOICE;waid=557187645787:+55 71 8764-5787\n' 
++     'TEL; tipo = CELL; tipo = VOZ; waid = 552172272943: +55 21 7227-2943 \ n ' 
 + 'END:VCARD'
 //vcard do propietário, mude os numeros de acordo com o formato que
-//ele corresponde
+// ele corresponde
 
 exports.mess = mess
 exports.apiTobz = apiTobz
@@ -47,4 +47,4 @@ exports.prefix = prefix
 exports.cr = cr
 exports.vcard = vcard
 exports.OriginalOwner = OriginalOwner
-exports.ownerNumber = ownerNumber
+exportações . ownerNumber  =  ownerNumber
